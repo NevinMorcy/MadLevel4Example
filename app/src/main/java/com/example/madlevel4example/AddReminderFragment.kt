@@ -1,11 +1,10 @@
-package com.example.madlevel3exampl
+package com.example.madlevel4example
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.Toast
 import androidx.core.os.bundleOf
 import androidx.fragment.app.setFragmentResult
@@ -25,6 +24,7 @@ class AddReminderFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        // The container is the where the fragments gets the layout parameters from
         return inflater.inflate(R.layout.fragment_add_reminder, container, false)
     }
 
